@@ -29,7 +29,7 @@ public class EmployeeMain {
 		// calling method without saving return value in a variable
 		System.out.println("Hourly pay    : $" + employee.getHourlyPay());
 		
-		//calling method to print and calculate the weekly salary
+		//calling method to calculate and print the weekly salary
 		employee.calcWeekPay(employee.getHourlyPay(), totalHours);
 
 		scan.close();
