@@ -40,6 +40,7 @@ public class Employee {
 	//method to calculate the weekly salary 
 	double calcWeekPay(double hPay, int noOfHrs) {		
 		double weeklyPay = hPay * noOfHrs;
+		System.out.println("Weekly salary : $" + weeklyPay);
 		return weeklyPay;
 	}
 }

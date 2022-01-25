@@ -21,13 +21,16 @@ public class EmployeeMain {
 		System.out.print("Hourly Pay : 	");
 		employee.setHourlyPay(scan.nextDouble());
 
-		System.out.print("Total number of hours worked in a week : 	");
+		System.out.print("Total number of hours worked in a week : ");
 		int totalHours = scan.nextInt();
 
 		System.out.println("\n\nEmployee Name : " + empName);
+		
 		// calling method without saving return value in a variable
-		System.out.println("Hourly pay : $" + employee.getHourlyPay());
-		System.out.println("Weekly salary : $" + employee.calcWeekPay(employee.getHourlyPay(), totalHours));
+		System.out.println("Hourly pay    : $" + employee.getHourlyPay());
+		
+		//calling method to print and calculate the weekly salary
+		employee.calcWeekPay(employee.getHourlyPay(), totalHours);
 
 		scan.close();
 
