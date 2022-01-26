@@ -7,9 +7,9 @@ package methodsQue2;
 
 public class CustomerService {
 
-	String customName = "John";
-	String customEmail = "john@gmail.com";
-	String customAddress = "100 Queen Street";
+	String customName = "";
+	String customEmail = "";
+	String customAddress = "";
 	
 	void setName(String name) {
 		customName = name;
