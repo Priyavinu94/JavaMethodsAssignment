@@ -1,7 +1,7 @@
 /* 	1. Create a class CustomerService with 3 variables : Name, Email and Address
  * 	2. Initialize these variables with the below values :
  *        Name = John , Email = john@gmail.com , Address = 100 queen street
- *  3. Write code to update these values from main class. 
+ * 	3. Write code to update these values from main class. 
  */
 package methodsQue2;
 
