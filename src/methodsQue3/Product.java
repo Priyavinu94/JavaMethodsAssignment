@@ -12,19 +12,7 @@ public class Product {
 			+ "See through tempered glass lid\n"
 			+ "Easy to clean, dishwasher safe stoneware";
 	double prodPrice = 39.99;
-	
-	void setName(String name) {
-		prodName = name;
-	}
-	
-	void setDescription(String description) {
-		prodDescription = description;
-	}
-	
-	void setPrice(double price) {
-		prodPrice = price;
-	}
-	
+
 	void printName() {
 		System.out.println("Product details\n\nName :	" + prodName);
 	}
