@@ -10,9 +10,9 @@ public class CustomerServiceMain {
 
 		CustomerService custService = new CustomerService();
 		
-		custService.customName = "John";
-		custService.customEmail = "john@gmail.com";
-		custService.customAddress = "100 Queen Street";
+		custService.setName("John");
+		custService.setEmail("john@gmail.com");
+		custService.setAddress("100 Queen Street");
 		
 		System.out.println("Customer Details : \n");
 		System.out.println("Customer Name : " + custService.getName());
