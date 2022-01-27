@@ -30,7 +30,7 @@ public class EmployeeMain {
 		System.out.println("Hourly pay    : $" + employee.getHourlyPay());
 		
 		//calling method to calculate and print the weekly salary
-		employee.calcWeekPay(employee.getHourlyPay(), totalHours);
+		employee.calcWeekPay(totalHours);
 
 		scan.close();
 
