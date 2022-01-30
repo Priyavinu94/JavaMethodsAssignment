@@ -9,7 +9,8 @@ public class Operations {
 		System.out.println("After entering each no, press corresponding key to perform desired operation");
 		System.out.println(" '+' to Add \n '-' to Subtract \n '*' to Multiply \n '/' to Divide");
 		System.out.println(" '%' to Find Percentage of\n '=' to get the resultant of operations");
-		System.out.println(" 'C' to Cancel current calculation\n\n");
+		System.out.println(" 'C' to Cancel current calculation");
+		System.out.println("Application exits if invalid operator is entered.\n\n");
 	}
 
 	void exitCase() {
