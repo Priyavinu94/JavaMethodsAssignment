@@ -90,6 +90,7 @@ public class MainClass {
 		if (!isValidOperator) {
 			System.out.println("Invalid operator");
 			System.out.println("The result upto valid input = " + number[0]);
+			operation.exitCase();
 		}
 	}
 }
