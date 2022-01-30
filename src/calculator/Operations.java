@@ -2,8 +2,6 @@ package calculator;
 
 public class Operations {
 
-	double firstNum = 0;
-	double secNum = 0;
 	double result = 0;
 
 	void printInstruction() {
